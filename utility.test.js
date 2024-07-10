@@ -25,3 +25,27 @@ describe("isPalindrome", () => {
     expect(isPalindrome("A man, a plan, a canal, Panama")).toBe(true);
   });
 });
+
+describe("fibonaccci", () => {
+  test("Should return 3 when nth number is 5", () => {
+    expect(fibonacci(5)).toBe(5);
+  });
+});
+
+describe("fahrenheitToCelsius", () => {
+  test("Should return 30 when 80", () => {
+    expect(fahrenheitToCelsius(86)).toBe(30);
+  });
+});
+
+describe("celsiusToFahrenheit", () => {
+  test("Should return 86 when 30", () => {
+    expect(celsiusToFahrenheit(30)).toBe(86);
+  });
+});
+
+describe("factorial", () => {
+  test("Should return 720 when 6", () => {
+    expect(factorial(6)).toBe(720);
+  });
+});
